@@ -5,7 +5,7 @@ app.get('/', async (req, res) => {
 
 
     const ip = req.headers['x-forwarded-for'] || req.socket.remoteAddress
-    const data = await iplocate(ip);
+    const data = await iplocate(ip, { api_key: 'abb0cae033b33812aa6153dedabb57017e1ee677ff23aa30f48e74a5' });
     return res.json({ data })
 })
 
