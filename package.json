@@ -13,6 +13,8 @@
   "dependencies": {
     "@supercharge/request-ip": "^1.1.2",
     "axios": "^0.24.0",
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "libnmap": "^0.4.19",
+    "request-ip": "^2.1.3"
   }
 }
