@@ -1,5 +1,4 @@
 const app = require('express')();
-const axios = require("axios")
 const iplocate = require('node-iplocate');
 
 app.get('/', async (req, res) => {
